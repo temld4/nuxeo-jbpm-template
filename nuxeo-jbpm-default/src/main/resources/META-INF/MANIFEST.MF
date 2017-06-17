@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 1
+Bundle-Name: Nuxeo ECM JBPM default
+Bundle-SymbolicName: org.nuxeo.ecm.platform.jbpm.default;singleton:=true
+Bundle-Vendor: Nuxeo
+Bundle-Category: web,stateful
+Nuxeo-Component: OSGI-INF/default-process-definitions-contrib.xml,
+  OSGI-INF/nxdirectories-contrib.xml
+

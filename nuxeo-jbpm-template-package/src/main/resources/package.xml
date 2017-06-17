@@ -1,6 +1,6 @@
 <!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
-<package type="addon" name="jbpm-process-definition-package" version="@VERSION@">
-  <title>J bpm process definition package</title>
+<package type="addon" name="nuxeo-jbpm-template-package" version="@VERSION@">
+  <title>JBPM process definition package</title>
   <description>
     <p>Put here an HTML description of your Nuxeo Package.</p>
   </description>

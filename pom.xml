@@ -7,16 +7,16 @@
     <version>9.2-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.nuxeo.jbpm.example</groupId>
-  <artifactId>nuxeo-jbpm-example-parent</artifactId>
+  <groupId>org.nuxeo.jbpm.template</groupId>
+  <artifactId>nuxeo-jbpm-template-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Nuxeo jbpm example parent</name>
+  <name>Nuxeo jbpm template parent</name>
   <description/>
   <packaging>pom</packaging>
 
   <modules>
-    <module>nuxeo-jbpm-example-core</module>
-    <module>nuxeo-jbpm-example-package</module>
+    <module>nuxeo-jbpm-default</module>
+    <module>nuxeo-jbpm-template-package</module>
   </modules>
 
   <repositories>
@@ -70,13 +70,13 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.nuxeo.jbpm.example</groupId>
-        <artifactId>nuxeo-jbpm-example</artifactId>
+        <groupId>org.nuxeo.jbpm.template</groupId>
+        <artifactId>nuxeo-jbpm-default</artifactId>
         <version>1.0-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>org.nuxeo.jbpm.example</groupId>
-        <artifactId>nuxeo-jbpm-example-package</artifactId>
+        <groupId>org.nuxeo.jbpm.template</groupId>
+        <artifactId>nuxeo-jbpm-template-package</artifactId>
         <version>1.0-SNAPSHOT</version>
       </dependency>
     </dependencies>
